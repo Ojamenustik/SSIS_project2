@@ -1,0 +1,182 @@
+StateProvinceID,StateProvinceCode,CountryRegionCode,IsOnlyStateProvinceFlag,Name,TerritoryID
+5,AS ,AS,True,American Samoa,1
+77,VIC,AU,False,Victoria,9
+71,TAS,AU,False,Tasmania,9
+66,SA ,AU,False,South Australia,9
+64,QLD,AU,False,Queensland,9
+50,NSW,AU,False,New South Wales,9
+83,YT ,CA,False,Yukon Territory,6
+69,SK ,CA,False,Saskatchewan,6
+63,QC ,CA,False,Quebec,6
+60,PE ,CA,False,Prince Edward Island,6
+57,ON ,CA,False,Ontario,6
+51,NT ,CA,False,Northwest Territories,6
+49,NS ,CA,False,Nova Scotia,6
+45,NF ,CA,False,Newfoundland,6
+41,NB ,CA,False,Brunswick,6
+31,MB ,CA,False,Manitoba,6
+29,LB ,CA,False,Labrador,6
+7,BC ,CA,False,British Columbia,6
+1,AB ,CA,False,Alberta,6
+86,SN ,DE,False,Saxony,8
+70,SL ,DE,False,Saarland,8
+53,NW ,DE,False,Nordrhein-Westfalen,8
+20,HH ,DE,False,Hamburg,8
+19,HE ,DE,False,Hessen,8
+8,BY ,DE,False,Bayern,8
+85,BB ,DE,False,Brandenburg,8
+16,FM ,FM,True,Micronesia,9
+84,FR ,FR,True,France,7
+181,95 ,FR,False,Val d'Oise,7
+180,94 ,FR,False,Val de Marne,7
+179,93 ,FR,False,Seine Saint Denis,7
+178,92 ,FR,False,Hauts de Seine,7
+177,91 ,FR,False,Essonne,7
+176,90 ,FR,False,Belford (Territoire de),7
+175,89 ,FR,False,Yonne,7
+174,88 ,FR,False,Vosges,7
+173,87 ,FR,False,Vienne (Haute),7
+172,86 ,FR,False,Vienne,7
+171,85 ,FR,False,La Vendée,7
+170,84 ,FR,False,Vaucluse,7
+169,83 ,FR,False,Var,7
+168,82 ,FR,False,Tarne et Garonne,7
+167,81 ,FR,False,Tarne,7
+166,80 ,FR,False,Somme,7
+165,79 ,FR,False,Sèvres (Deux),7
+164,78 ,FR,False,Yveline,7
+163,77 ,FR,False,Seine et Marne,7
+162,76 ,FR,False,Seine Maritime,7
+161,75 ,FR,False,Seine (Paris),7
+160,74 ,FR,False,Savoie Haute,7
+159,73 ,FR,False,Savoie,7
+158,72 ,FR,False,Sarthe,7
+157,71 ,FR,False,Saône et Loire,7
+156,70 ,FR,False,Saône (Haute),7
+155,69 ,FR,False,Rhône,7
+154,68 ,FR,False,Rhin (Haut),7
+153,67 ,FR,False,Rhin (Bas),7
+152,66 ,FR,False,Pyrénées Orientales,7
+151,65 ,FR,False,Pyrénées (Hautes),7
+150,64 ,FR,False,Pyrénées Atlantiques,7
+149,63 ,FR,False,Puy de Dôme,7
+148,62 ,FR,False,Pas de Calais,7
+147,61 ,FR,False,Orne,7
+146,60 ,FR,False,Oise,7
+145,59 ,FR,False,Nord,7
+144,58 ,FR,False,Nièvre,7
+143,57 ,FR,False,Moselle,7
+142,56 ,FR,False,Morbihan,7
+141,55 ,FR,False,Meuse,7
+140,54 ,FR,False,Meurthe et Moselle,7
+139,53 ,FR,False,Mayenne,7
+138,52 ,FR,False,Marne (Haute),7
+137,51 ,FR,False,Marne,7
+136,50 ,FR,False,Manche,7
+135,49 ,FR,False,Maine et Loire,7
+134,48 ,FR,False,Lozère,7
+133,47 ,FR,False,Lot et Garonne,7
+132,46 ,FR,False,Lot,7
+131,45 ,FR,False,Loiret,7
+130,44 ,FR,False,Loire Atlantique,7
+129,43 ,FR,False,Loire (Haute),7
+128,42 ,FR,False,Loire,7
+127,41 ,FR,False,Loir et Cher,7
+126,40 ,FR,False,Landes,7
+125,39 ,FR,False,Jura,7
+124,38 ,FR,False,Isère,7
+123,37 ,FR,False,Indre et Loire,7
+122,36 ,FR,False,Indre,7
+121,35 ,FR,False,Ille et Vilaine,7
+120,34 ,FR,False,Hérault,7
+119,33 ,FR,False,Gironde,7
+118,32 ,FR,False,Gers,7
+117,31 ,FR,False,Garonne (Haute),7
+116,30 ,FR,False,Gard,7
+115,29 ,FR,False,Finistère,7
+114,28 ,FR,False,Eure et Loir,7
+113,27 ,FR,False,Eure,7
+112,26 ,FR,False,Drôme,7
+111,25 ,FR,False,Toubs,7
+110,24 ,FR,False,Dordogne,7
+109,23 ,FR,False,Creuse,7
+108,22 ,FR,False,Côtes-d'Armor,7
+107,21 ,FR,False,Côte d'Or,7
+106,20 ,FR,False,Corse,7
+105,19 ,FR,False,Corrèze,7
+104,18 ,FR,False,Cher,7
+103,17 ,FR,False,Charente-Maritime,7
+102,16 ,FR,False,Charente,7
+101,15 ,FR,False,Cantal,7
+100,14 ,FR,False,Calvados,7
+99,13 ,FR,False,Bouches du Rhône,7
+98,12 ,FR,False,Aveyron,7
+97,11 ,FR,False,Aude,7
+96,10 ,FR,False,Aube,7
+95,09 ,FR,False,Ariège,7
+94,08 ,FR,False,Ardennes,7
+93,07 ,FR,False,Ardèche,7
+92,06 ,FR,False,Alpes-Maritimes,7
+91,05 ,FR,False,Alpes (Haute),7
+90,04 ,FR,False,Alpes-de-Haute Provence,7
+89,03 ,FR,False,Allier,7
+88,02 ,FR,False,Aisne,7
+87,01 ,FR,False,Ain,7
+14,ENG,GB,True,England,10
+34,MH ,MH,True,Marshall Islands,9
+38,MP ,MP,True,Northern Mariana Islands,9
+62,PW ,PW,True,Palau,9
+82,WY ,US,False,Wyoming,1
+81,WV ,US,False,West Virginia,5
+80,WI ,US,False,Wisconsin,3
+79,WA ,US,False,Washington,1
+78,VT ,US,False,Vermont,2
+75,VA ,US,False,Virginia,5
+74,UT ,US,False,Utah,1
+73,TX ,US,False,Texas,4
+72,TN ,US,False,Tennessee,5
+68,SD ,US,False,South Dakota,3
+67,SC ,US,False,South Carolina,5
+65,RI ,US,False,Rhode Island,2
+61,PR ,US,False,Puerto Rico,5
+59,PA ,US,False,Pennsylvania,2
+58,OR ,US,False,Oregon,1
+56,OK ,US,False,Oklahoma,3
+55,OH ,US,False,Ohio,2
+54,NY ,US,False,New York,2
+52,NV ,US,False,Nevada,1
+48,NM ,US,False,New Mexico,4
+47,NJ ,US,False,New Jersey,2
+46,NH ,US,False,New Hampshire,2
+44,NE ,US,False,Nebraska,3
+43,ND ,US,False,North Dakota,3
+42,NC ,US,False,North Carolina,5
+40,MT ,US,False,Montana,1
+39,MS ,US,False,Mississippi,5
+37,MO ,US,False,Missouri,3
+36,MN ,US,False,Minnesota,3
+35,MI ,US,False,Michigan,3
+33,ME ,US,False,Maine,2
+32,MD ,US,False,Maryland,2
+30,MA ,US,False,Massachusetts,2
+28,LA ,US,False,Louisiana,3
+27,KY ,US,False,Kentucky,5
+26,KS ,US,False,Kansas,3
+25,IN ,US,False,Indiana,2
+24,IL ,US,False,Illinois,3
+23,ID ,US,False,Idaho,1
+22,IA ,US,False,Iowa,3
+21,HI ,US,False,Hawaii,1
+18,GU ,US,False,Guam,4
+17,GA ,US,False,Georgia,5
+15,FL ,US,False,Florida,5
+13,DE ,US,False,Delaware,2
+12,DC ,US,False,District of Columbia,2
+11,CT ,US,False,Connecticut,2
+10,CO ,US,False,Colorado,3
+9,CA ,US,False,California,4
+6,AZ ,US,False,Arizona,4
+4,AR ,US,False,Arkansas,3
+3,AL ,US,False,Alabama,5
+2,AK ,US,False,Alaska,1
+76,VI ,VI,True,Virgin Islands,5
