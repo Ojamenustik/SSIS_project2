@@ -1,0 +1,1 @@
+Name,ProductNumber,Color,Size,Copy of Name,Copy of ProductNumber,Copy of Color,Copy of Size

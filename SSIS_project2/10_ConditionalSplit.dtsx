@@ -11,8 +11,8 @@
   DTS:LocaleID="2057"
   DTS:ObjectName="10_ConditionalSplit"
   DTS:PackageType="5"
-  DTS:VersionBuild="1"
-  DTS:VersionGUID="{3D237B5E-68DF-4DFF-9767-639680B48C01}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{8F1A1E17-8110-4C8F-86A2-86538CB3744C}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -33,7 +33,7 @@
       DTS:ObjectName="Excel Connection Manager">
       <DTS:ObjectData>
         <DTS:ConnectionManager
-          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Z:\Projekty\SSIS_project2\ConditionalSplit.xls;Extended Properties=&quot;Excel 8.0;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Z:\Projekty\SSIS_project2\ConditionalSplit.xls;Extended Properties=&quot;EXCEL 8.0;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
   </DTS:ConnectionManagers>
@@ -1050,29 +1050,65 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="149.6,41.6"
-          Id="Package\Data Flow Task\OLE DB Source"
-          TopLeft="172.244900892497,33.6470592954167" />
+          Size="168,41.6"
+          Id="Package\Data Flow Task\Excel Destination 1"
+          TopLeft="140.000002384186,275.294121507955" />
+        <NodeLayout
+          Size="168,41.6"
+          Id="Package\Data Flow Task\Excel Destination 3"
+          TopLeft="138.000002350126,442.917653270576" />
         <NodeLayout
           Size="159.2,41.6"
           Id="Package\Data Flow Task\Excel Destination"
           TopLeft="20.0000003405979,197.294120414034" />
         <NodeLayout
           Size="168,41.6"
-          Id="Package\Data Flow Task\Excel Destination 1"
-          TopLeft="140.000002384186,275.294121507955" />
-        <NodeLayout
-          Size="168,41.6"
           Id="Package\Data Flow Task\Excel Destination 2"
           TopLeft="298.57143365607,214.117650061743" />
         <NodeLayout
-          Size="168,41.6"
-          Id="Package\Data Flow Task\Excel Destination 3"
-          TopLeft="138.571430931286,443.529417985038" />
+          Size="149.6,41.6"
+          Id="Package\Data Flow Task\OLE DB Source"
+          TopLeft="172.244900892497,33.6470592954167" />
         <NodeLayout
           Size="154.4,41.6"
           Id="Package\Data Flow Task\Conditional Split"
           TopLeft="158.571431271884,114.705883961648" />
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[PoorOrders]"
+          TopLeft="191.851431271884,156.305883961648">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-92.2514309312861,40.9882364523864"
+              Start="0,0"
+              End="-92.2514309312861,33.4882364523864">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.34692712830758" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.34692712830758"
+                    Point2="0,12.3469271283076"
+                    Point3="-4,12.3469271283076" />
+                  <mssgle:LineSegment
+                    End="-88.2514309312861,12.3469271283076" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-88.2514309312861,12.3469271283076"
+                    Point2="-92.2514309312861,12.3469271283076"
+                    Point3="-92.2514309312861,16.3469271283076" />
+                  <mssgle:LineSegment
+                    End="-92.2514309312861,33.4882364523864" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-71.4132935906431,17.3469271283076,50.57515625,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[OLE DB Source Output]"
           TopLeft="247.044900892497,75.2470592954167">
@@ -1108,38 +1144,62 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[PoorOrders]"
-          TopLeft="191.851431271884,156.305883961648">
+          Id="Package\Data Flow Task.Paths[GoodOrders]"
+          TopLeft="272.371431271884,156.305883961648">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-92.2514309312861,40.9882364523864"
+              EndConnector="110.200002384186,57.8117661000948"
               Start="0,0"
-              End="-92.2514309312861,33.4882364523864">
+              End="110.200002384186,50.3117661000948">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,8.34692712830758" />
+                    End="0,15.9249380616625" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,8.34692712830758"
-                    Point2="0,12.3469271283076"
-                    Point3="-4,12.3469271283076" />
+                    Point1="0,15.9249380616625"
+                    Point2="0,19.9249380616625"
+                    Point3="4,19.9249380616625" />
                   <mssgle:LineSegment
-                    End="-88.2514309312861,12.3469271283076" />
+                    End="106.200002384186,19.9249380616625" />
                   <mssgle:CubicBezierSegment
-                    Point1="-88.2514309312861,12.3469271283076"
-                    Point2="-92.2514309312861,12.3469271283076"
-                    Point3="-92.2514309312861,16.3469271283076" />
+                    Point1="106.200002384186,19.9249380616625"
+                    Point2="110.200002384186,19.9249380616625"
+                    Point3="110.200002384186,23.9249380616625" />
                   <mssgle:LineSegment
-                    End="-92.2514309312861,33.4882364523864" />
+                    End="110.200002384186,50.3117661000948" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-71.4132935906431,17.3469271283076,50.57515625,9.7490234375"
+              BoundingBox="28.059903535843,24.9249380616625,54.0801953125,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Exellent Orders]"
+          TopLeft="221.565716811005,156.305883961648">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,286.611769308928"
+              Start="0,0"
+              End="0,279.111769308928">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,279.111769308928" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-34.157578125,134.681372935714,68.31515625,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -1179,71 +1239,24 @@
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[GoodOrders]"
-          TopLeft="272.371431271884,156.305883961648">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="110.200002384186,57.8117661000948"
-              Start="0,0"
-              End="110.200002384186,50.3117661000948">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,15.9249380616625" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,15.9249380616625"
-                    Point2="0,19.9249380616625"
-                    Point3="4,19.9249380616625" />
-                  <mssgle:LineSegment
-                    End="106.200002384186,19.9249380616625" />
-                  <mssgle:CubicBezierSegment
-                    Point1="106.200002384186,19.9249380616625"
-                    Point2="110.200002384186,19.9249380616625"
-                    Point3="110.200002384186,23.9249380616625" />
-                  <mssgle:LineSegment
-                    End="110.200002384186,50.3117661000948" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="28.0599035358429,24.9249380616625,54.0801953125,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Exellent Orders]"
-          TopLeft="221.851431101585,156.305883961648">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,287.22353402339"
-              Start="0,0"
-              End="0,279.72353402339">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,279.72353402339" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-34.157578125,134.987255292945,68.31515625,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Source">
+    design-time-name="Package\Data Flow Task\Excel Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Excel Destination 3">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -1269,19 +1282,6 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Excel Destination 1">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\Excel Destination 2">
     <Properties>
       <Property>
@@ -1295,7 +1295,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Excel Destination 3">
+    design-time-name="Package\Data Flow Task\OLE DB Source">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
